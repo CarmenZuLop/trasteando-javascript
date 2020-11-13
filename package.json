@@ -1,0 +1,19 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "Pruebas para ver como funciona el GIT",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarmenZuLop/trasteando-javascript.git"
+  },
+  "author": "Carmen Zurron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarmenZuLop/trasteando-javascript/issues"
+  },
+  "homepage": "https://github.com/CarmenZuLop/trasteando-javascript#readme"
+}
