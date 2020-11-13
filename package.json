@@ -4,7 +4,9 @@
   "description": "Pruebas para ver como funciona el GIT",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/CarmenZuLop/trasteando-javascript/issues"
   },
-  "homepage": "https://github.com/CarmenZuLop/trasteando-javascript#readme"
+  "homepage": "https://github.com/CarmenZuLop/trasteando-javascript#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
